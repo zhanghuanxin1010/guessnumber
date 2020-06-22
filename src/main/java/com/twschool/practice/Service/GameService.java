@@ -12,7 +12,7 @@ public class GameService {
         this.gameRepository = gameRepository;
 
     }
-    public String guess(String number) {
+    public String Guess(String number) {
         GuessNumberGame guessNumberGame = gameRepository.find();
         return guessNumberGame.guess(number);
 

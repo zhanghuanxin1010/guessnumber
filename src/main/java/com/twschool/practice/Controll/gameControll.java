@@ -17,7 +17,7 @@ public class gameControll {
         String number = requestBody.get("number");
         Map<String,String> responseBody = new HashMap<>();
         responseBody.put("input",number);
-        responseBody.put("result",gameService.guess(number));
+        responseBody.put("result",gameService.Guess(number));
         return responseBody;
     }
 
